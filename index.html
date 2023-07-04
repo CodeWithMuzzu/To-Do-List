@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="modal modal-sheet position-static d-flex align-items-center bg-body-secondary p-4 py-md-5 vh-100"
+        tabindex="-1" role="dialog" id="modalTour">
+        <div class="modal-dialog d-flex justify-content-md-center align-items-center vh-100" role="document">
+            <div class="modal-content rounded-4 shadow">
+                <div class="modal-body p-5">
+                    <h2 class="fw-bold mb-3">To-Do List</h2>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Add Today's Tasks"
+                            aria-label="Recipient's username" aria-describedby="button-addon2" id="input-task">
+                        <button class="btn btn-outline-secondary btn-light" type="button"
+                            id="button-addon2">Add</button>
+                    </div>
+
+                    <div class="grid">
+                        <div class="row" id="todoContainer">
+
+                        </div>
+                    </div>
+
+                    <button id="clearAll" type="button" class="btn btn-lg btn-primary mt-3 w-100"
+                        data-bs-dismiss="modal">Clear
+                        All</button>
+                </div>
+            </div>
+            <!-- <div class="d-flex align-items-center grid">
+                <div class="row">
+                    <p>Instructions : <br></p>
+                    <p>-> Single Click to strie off tasks. <br></p>
+                    <p>-> Double click to remove the task.</p>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+    <style>
+        .modal-sheet {
+            overflow-y: hidden !important;
+        }
+    </style>
+</body>
+
+<footer class="py-1 my-1">
+    <ol class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Instructions : </a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">1) Single click - <s>Task
+                    Completed</s></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">2) Double Click - To Remove the
+                Task</a></li>
+    </ol>
+    <p class="text-center text-body-secondary"><a href="https://github.com/CodeWithMuzzu"
+            style="text-decoration: none;">© CodeWithMuzzu</a></p>
+</footer>
+<!-- <footer>
+    <div class="container">
+        
+    </div>
+</footer> -->
+
+</html>
