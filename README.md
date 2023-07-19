@@ -7,4 +7,6 @@ Basic Front-End Application
 
 Visit Site : https://codewithmuzzu.github.io/To-Do-List
 
-- Visit the site and have fun.
+see the site if any quries drop a message
+
+- Visit the site and have fun
