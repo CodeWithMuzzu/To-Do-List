@@ -2,11 +2,11 @@
 
 This is basic todo app which is built using HTMl, Bootstrap and Javascript.
 
-Basic Front-End Application
+Basic Front-End Application.
 
 
-Visit Site : https://codewithmuzzu.github.io/To-Do-List
+Visit site : https://codewithmuzzu.github.io/To-Do-List
 
-see the site if any quries drop a message
+See the site if any queries drop a message
 
 - Visit the site and have fun
